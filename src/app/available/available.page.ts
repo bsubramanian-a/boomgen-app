@@ -149,7 +149,7 @@ export class AvailablePage implements OnInit {
     toast.present();
   }
   doRefresh(event) {  
-    console.log(this.couponlist, "");  
+    console.log(this.couponlist);  
     setTimeout(() => {
       this.getAds();
       this.getAllCoupons();
